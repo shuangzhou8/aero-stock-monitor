@@ -1,5 +1,7 @@
 # AERO 股票池监控
 
+[![Tests](https://github.com/shuangzhou8/aero-stock-monitor/actions/workflows/test.yml/badge.svg)](https://github.com/shuangzhou8/aero-stock-monitor/actions/workflows/test.yml)
+
 监控 **Base 链 / Stocks 分类**的 Aero 流动性池，比较 AERO 奖励、有效质押量和新增资金年化。
 
 只读应用，使用公开 RPC。无需钱包、私钥或 API Key。
@@ -29,7 +31,7 @@ npm start
 
 浏览器打开 **http://127.0.0.1:4381/**。在终端按 `Ctrl+C` 停止服务。
 
-也可以从 GitHub 点击 **Code → Download ZIP**，解压后执行上述命令。Mac 可双击 `Start.command` 启动后台服务；首次使用先安装 Node.js。
+也可以从 GitHub 点击 **Code → Download ZIP**，解压后执行上述命令。Mac 后台启动：先在项目目录执行 `chmod +x Start.command`，再双击 `Start.command`；首次使用先安装 Node.js。直接使用 `npm start` 无需修改文件权限。
 
 如果 4381 端口被占用，可设置其他端口：
 
